@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+  font-size: 32px;
+}
+
+header img {
+  display: inline-block;
+  margin-top: 20px;
+}
+nav ul{
+  list-style-type: none
+}
+nav ul li{
+  display: inline;
+}
+nav ul li a {
+  font-size: 20px;
+}
+aside{
+  float: right;
+}
+
+.cursor{
+  cursor: pointer;
+  outline: none;
+}
+
+#gold_button{
+  background-color: gold;
+}

@@ -1,0 +1,61 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: black;
+}
+
+// Place all the styles related to the Sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.button {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: skyblue;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form p{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form p label {
+  padding-right: 50px;
+  color: white;
+  display: block;
+}
+
+.form p input{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR…fnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 16px 18px;
+  background-position: 98% 50%;
+  float: right;
+}
+
+
+#submit_button{
+  align-self: flex-end;
+  font-size: 18px;
+  margin-top: 20px;
+}

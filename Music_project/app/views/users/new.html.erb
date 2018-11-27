@@ -1,0 +1,23 @@
+
+<div class = "main_content">
+<h1 class="page_header">New User</h1>
+
+<a class="button" href="<%= new_session_url %>">Go to sign-in</a>
+
+<form class="form" action="<%= users_url %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<p>
+  <label>Email</label>
+  <input type="email" name="user[email]" value="">
+</p>
+
+<p>
+  <label>Password</label>
+  <input type="password" name="user[password]" value="">
+</p>
+
+<input class="button" id="submit_button_2" type="submit" name="" value="Submit">
+
+
+</form>
+</div>
